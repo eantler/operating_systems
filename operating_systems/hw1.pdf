@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html  dir="rtl" lang="he" xml:lang="he">
+<head>
+    <title>0368216206 - מערכות הפעלה</title>
+    <link rel="shortcut icon" href="http://moodle.tau.ac.il/theme/image.php/elegance/theme/1491641905/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, 0368216206 - מערכות הפעלה" />
+<link rel="stylesheet" type="text/css" href="http://moodle.tau.ac.il/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://moodle.tau.ac.il/theme/styles.php/elegance/1491641905/all" />
+<link rel="stylesheet" type="text/css" href="http://moodle.tau.ac.il/blocks/accessibility/userstyles.php?instance_id=28538" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/moodle.tau.ac.il","sesskey":"QlFi5cb8cg","loadingicon":"http:\/\/moodle.tau.ac.il\/theme\/image.php\/elegance\/core\/1491641905\/i\/loading_small","themerev":"1491641905","slasharguments":1,"theme":"elegance","jsrev":-1,"admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/moodle.tau.ac.il\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/moodle.tau.ac.il\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/moodle.tau.ac.il\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/moodle.tau.ac.il\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/moodle.tau.ac.il\/theme\/yui_combo.php?m\/-1\/","combine":true,"comboBase":"http:\/\/moodle.tau.ac.il\/theme\/yui_combo.php?","ext":false,"root":"m\/-1\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_mobileapp-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-limitchoices":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_workflow-comments":{"requires":["base","overlay","moodle-core-formautosubmit","moodle-core-notification"]},"moodle-block_workflow-todolist":{"requires":["base","node","event"]},"moodle-block_workflow-userinfo":{"requires":["base","event","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-format_topicslinks-topicslinkskeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_editrolesbycap-capabilityformfield":{"requires":["base","dom","event","cookie"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-quizaccess_offlinemode-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","core_question_engine","mod_quiz"]},"moodle-quizaccess_offlinemode-download":{"requires":["base","node","event","node-event-delegate","json","io-form","moodle-quizaccess_offlinemode-jsencrypt","moodle-quizaccess_offlinemode-sjcl"]},"moodle-quizaccess_offlinemode-jsencrypt":{"requires":[]},"moodle-quizaccess_offlinemode-navigation":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","moodle-core-notification-confirm"]},"moodle-quizaccess_offlinemode-sjcl":{"requires":[]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_computing-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_corrections-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_hr-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_imagedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_structure-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/moodle.tau.ac.il\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/moodle.tau.ac.il\/theme\/yui_combo.php?","ext":false,"root":"gallery\/-1\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/moodle.tau.ac.il\/lib\/javascript.php\/-1\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/moodle.tau.ac.il\/lib\/javascript.php\/-1\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"http:\/\/cdn.mathjax.org\/mathjax\/2.6-latest\/MathJax.js?delayStartupUntil=configured"},"block_accessibility":{"name":"block_accessibility","fullpath":"http:\/\/moodle.tau.ac.il\/lib\/javascript.php\/-1\/blocks\/accessibility\/module.js","requires":["base","node","stylesheet"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-enrol-index" class="format-topics  path-enrol dir-rtl lang-he yui-skin-sam yui3-skin-sam moodle-tau-ac-il pagelayout-incourse course-368216206 context-167543 category-368 has-region-side-post used-region-side-post side-post-only">
+<div id="TAU_header"><a href="http://www.tau.ac.il" target="_blank"></a></div>
+
+<div class="skiplinks"><a class="skip" href="#maincontent">דילוג לתוכן העיקרי</a></div>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/-1/mcore-min.js"></script><script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/core/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/theme_elegance/fitvids-1.1.0.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/theme_elegance/eventswipe_0.5.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/theme_elegance/nprogress.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/theme_elegance/backstretch_2.0.6.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/jquery.php/theme_elegance/elegance.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/lib/javascript.php/-1/lib/javascript-static.js"></script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/javascript.php/elegance/1491641905/head"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page-content-wrapper">
+    <nav role="navigation" class="navbar navbar-default eboxshadow">
+
+    <div class="container-fluid">
+        <div class="navbar-header pull-left">
+            <a class="navbar-brand" href="http://moodle.tau.ac.il"><span lang="he" class="multilang">דף הבית</span><span lang="en" class="multilang">Home</span></a>
+        </div>
+
+        <div class="navbar-header pull-right">
+            <ul class="nav navbar-nav hidden-xs hidden-sm">
+            
+            </ul>
+            <ul class="nav navbar-nav">
+				<li><a href="#" id="toggleblocks"><span lang="he" class="multilang">מסך מלא</span><span lang="en" class="multilang">Full Screen</span><span lang="he" class="multilang hide">תצוגה רגילה</span><span lang="en" class="multilang hide">Restore View</span></a></li>
+            </ul>
+            
+            <ul class="nav pull-left usermenu guest" role="menubar"><li><a class="התחבר/י" title="התחבר/י" href="http://moodle.tau.ac.il/login/index.php?alt=%D7%94%D7%AA%D7%97%D7%91%D7%A8%2F%D7%99&amp;saml=1"><span class="iconwrapper"><i class="glyphicon glyphicon-sign-in"></i></span>התחבר/י</a></ul>
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#moodle-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="moodle-navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            <li class="dropdown"><a href="#cm_submenu_1" class="dropdown-toggle" data-toggle="dropdown" title="Courses"><span lang="he" class="multilang">קורסים</span><span lang="en" class="multilang">Courses</span><b class="caret"></b></a><ul class="dropdown-menu "><li class="dropdown-submenu"><a href="#cm_submenu_2" class="dropdown-toggle" data-toggle="dropdown" title="Courses from past years"> <span lang="he" class="multilang">קורסים משנים קודמות</span><span lang="en" class="multilang">Courses from past years</span></a><ul class="dropdown-menu "><li><a class="תשע&quot;ו (2015/2016)" title="תשע&quot;ו (2015/2016)" href="http://moodle.tau.ac.il/2015/login/"> תשע"ו (2015/2016)</a><li><a class="תשע&quot;ה (2014/2015)" title="תשע&quot;ה (2014/2015)" href="http://moodle.tau.ac.il/2014/login/"> תשע"ה (2014/2015)</a><li><a class="תשע&quot;ד (2013/2014)" title="תשע&quot;ד (2013/2014)" href="http://moodle.tau.ac.il/2013/login/"> תשע"ד (2013/2014)</a><li><a class="תשע&quot;ג (2012/2013)" title="תשע&quot;ג (2012/2013)" href="http://moodle.tau.ac.il/2012/login/"> תשע"ג (2012/2013)</a><li><a class="תשע&quot;ב(2011/2012)" title="תשע&quot;ב(2011/2012)" href="http://moodle.tau.ac.il/2011/login/"> תשע"ב (2011/2012)</a></ul><li><a class="קורסים פתוחים לאורחים" title="קורסים פתוחים לאורחים" href="http://moodle.tau.ac.il/2016/tau/courses/guests2016.php">כניסה לאורחים</a><li><a class="קורסים זמינים לסטודנטים" title="קורסים זמינים לסטודנטים" href="http://moodle.tau.ac.il/2016/tau/courses/2016.php">קורסים זמינים</a></ul><li class="dropdown"><a href="#cm_submenu_3" class="dropdown-toggle" data-toggle="dropdown" title="מידע  למרצים">מידע  למרצים<b class="caret"></b></a><ul class="dropdown-menu "><li><a class="המדריך המקוון המלא לעבודה ב Moodle" title="המדריך המקוון המלא לעבודה ב Moodle" href="http://moodle.tau.ac.il/2016/course/view.php?id=6000000064">המדריך המקוון המלא לעבודה ב Moodle</a><li><a class="חידושים ושינויים ב-Moodle תשע&quot;ז" title="חידושים ושינויים ב-Moodle תשע&quot;ז" href="http://moodle.tau.ac.il/2016/course/view.php?id=6000000007">חידושים ושינויים ב-Moodle תשע"ז</a><li><a class="עקרונות פעולה לשימוש ביצירות לצרכי הוראה" title="עקרונות פעולה לשימוש ביצירות לצרכי הוראה" href="http://moodle.tau.ac.il/tau/Principles_for_use_of_works_for_teaching.pdf">עקרונות פעולה לשימוש ביצירות לצרכי הוראה</a><li><a class="סדנאות לעבודה ב-Moodle" title="סדנאות לעבודה ב-Moodle" href="http://moodle.tau.ac.il/2016/mod/page/view.php?id=27896">סדנאות לעבודה ב-Moodle</a><li><a class="עדכון סילבוס במערכת האוניברסיטאית" title="עדכון סילבוס במערכת האוניברסיטאית" href="https://iwww2.tau.ac.il/yedion/update/">עדכון סילבוס במערכת האוניברסיטאית</a><li><a class="שאלות נפוצות" title="שאלות נפוצות" href="http://moodle.tau.ac.il/2016/course/view.php?id=6000000067">שאלות נפוצות</a><li><a class="הפיכת אתר קורס לזמין לסטודנטים" title="הפיכת אתר קורס לזמין לסטודנטים" href="http://moodle.tau.ac.il/2016/mod/resource/view.php?id=27552">הפיכת אתר קורס לזמין לסטודנטים</a><li><a class="העתקת קורס משנים קודמות" title="העתקת קורס משנים קודמות" href="http://moodle.tau.ac.il/2016/mod/resource/view.php?id=27789">העתקת קורס משנים קודמות</a><li><a class="הוספת עוזרי הוראה וסטודנטים שאינם רשומים לקורס" title="הוספת עוזרי הוראה וסטודנטים שאינם רשומים לקורס" href="http://moodle.tau.ac.il/2016/mod/resource/view.php?id=27791">הוספת עוזרי הוראה וסטודנטים שאינם רשומים לקורס</a><li><a class="מתאמי מחשוב לפי פקולטות" title="מתאמי מחשוב לפי פקולטות" href="http://www1.tau.ac.il/cc/help/coordinators-heb.php">מתאמי מחשוב לפי פקולטות</a><li><a class="פניה למרכז התמיכה – Virtual TAU" title="פניה למרכז התמיכה – Virtual TAU" href="https://education.tau.ac.il/virtualtau/kesher">פניה למרכז התמיכה – Virtual TAU</a></ul><li class="dropdown"><a href="#cm_submenu_4" class="dropdown-toggle" data-toggle="dropdown" title="מידע לסטודנטים">מידע לסטודנטים<b class="caret"></b></a><ul class="dropdown-menu "><li><a class="הוראות כניסה" title="הוראות כניסה" href="http://moodle.tau.ac.il/2016/mod/page/view.php?id=27540">הוראות כניסה</a><li><a class="תמיכה לסטודנטים" title="תמיכה לסטודנטים" href="http://moodle.tau.ac.il/2016/mod/page/view.php?id=27830">תמיכה לסטודנטים</a><li><a class=" חוק זכויות יוצרים – תשס&quot;ח" title=" חוק זכויות יוצרים – תשס&quot;ח" href="http://moodle.tau.ac.il/tau/virtual/DOC140203.pdf"> חוק זכויות יוצרים – תשס"ח</a></ul><li class="dropdown"><a href="#cm_submenu_5" class="dropdown-toggle" data-toggle="dropdown" title="Tel Aviv University"><span lang="he" class="multilang">אוניברסיטת תל אביב</span><span lang="en" class="multilang">Tel Aviv University</span><b class="caret"></b></a><ul class="dropdown-menu "><li><a class="Tau Site" title="Tau Site" href="http://www.tau.ac.il"> אתר ראשי</a><li><a class="לוח שנת הלימודים" title="לוח שנת הלימודים" href="https://www.tau.ac.il/calendar"> לוח שנת הלימודים</a><li><a class=" מערכת שעות" title=" מערכת שעות" href="http://www2.tau.ac.il/yedion/yedion.html"> מערכת שעות</a><li><a class=" ידיעונים" title=" ידיעונים" href="http://www.tau.ac.il/guides1"> ידיעונים</a><li><a class="מפת הקמפוס" title="מפת הקמפוס" href="https://iwww2.tau.ac.il/map/unimapl1.asp"> מפת הקמפוס</a><li><a class="ספריות באוניברסיטת תל אביב" title="ספריות באוניברסיטת תל אביב" href="http://libraries.tau.ac.il/home"> ספריות באוניברסיטת תל אביב</a><li><a class="Video Server" title="Video Server" href="http://video.tau.ac.il"> שרת הוידאו</a><li><a class="אגודת הסטודנטים" title="אגודת הסטודנטים" href="http://www.tau.ac.il/student-association"> אגודת הסטודנטים</a><li><a class="קורסרה" title="קורסרה" href="https://www.coursera.org/telaviv"> קורסי קורסרה</a><li><a class=" YouTube" title=" YouTube" href="http://www.youtube.com/TAUVOD"> YouTube</a></ul><li class="dropdown"><a href="#cm_submenu_6" class="dropdown-toggle" data-toggle="dropdown" title="&lt;span lang=&quot;he&quot; class=&quot;multilang&quot;&gt;שירותי מחשוב&lt;/span&gt;&lt;span lang=&quot;en&quot; class=&quot;multilang&quot;&gt;Computer Services&lt;/span&gt;"><span lang="he" class="multilang">שירותי מחשוב</span><span lang="en" class="multilang">Computer Services</span><b class="caret"></b></a><ul class="dropdown-menu "><li><a class="Computer Services" title="Computer Services" href="http://www.tau.ac.il/computer-services"> אגף מחשוב וטכנולוגיות מידע</a><li class="dropdown-submenu"><a href="#cm_submenu_7" class="dropdown-toggle" data-toggle="dropdown" title=" MyTAU"> MyTAU</a><ul class="dropdown-menu "><li><a class="MyTAU" title="MyTAU" href="https://mytau.tau.ac.il"> פורטל אישי</a><li><a class=" My Courses" title=" My Courses" href="https://mytau.tau.ac.il/myCourses.php"> My Courses</a><li><a class="מידע אישי לסטודנט" title="מידע אישי לסטודנט" href="https://iims.tau.ac.il/Tal/Default.aspx"> מידע אישי לסטודנט</a><li><a class=" מידע אישי למרצה" title=" מידע אישי למרצה" href="https://iims.tau.ac.il/Ac/Default.aspx"> מידע אישי למרצה</a></ul><li><a class="Change Password" title="Change Password" href="https://www.tau.ac.il/passwd/"> שינוי סיסמה</a><li><a class="Support Center" title="Support Center" href="http://www.tau.ac.il/cc/helpdesk/"> מרכז תמיכה אגף מחשוב</a><li><a class=" תקשורת אלחוטית" title=" תקשורת אלחוטית" href="http://www.tau.ac.il/cc/communication/wireless-heb.html"> תקשורת אלחוטית</a></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="שפת ממשק">Language<b class="caret"></b></a><ul class="dropdown-menu "><li><a class="English ‎(en)‎" title="English ‎(en)‎" href="http://moodle.tau.ac.il/enrol/index.php?id=368216206&amp;lang=en">English ‎(en)‎</a><li><a class="עברית ‎(he)‎" title="עברית ‎(he)‎" href="http://moodle.tau.ac.il/enrol/index.php?id=368216206&amp;lang=he">עברית ‎(he)‎</a></ul>
+            </ul>
+            
+            <ul class="nav">
+                <li></li>
+            </ul>
+            
+        </div>
+    </div>
+
+</nav>
+    
+
+    
+	<header id="moodleheader" class="clearfix">
+							<div id="page-navbar" >
+    <div class="container-fluid">
+        <div class="breadcrumbcontainer  m-t-5">
+            <nav class="breadcrumb-nav elegancewidth" role="navigation" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.tau.ac.il/"><span itemprop="title">ראשי</span></a></span></li>
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.tau.ac.il/course/index.php"><span itemprop="title">קורסים</span></a></span></li>
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.tau.ac.il/course/index.php?categoryid=300"><span itemprop="title">פקולטה למדעים מדויקים</span></a></span></li>
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.tau.ac.il/course/index.php?categoryid=380"><span itemprop="title">ביה"ס למדעי המחשב</span></a></span></li>
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="http://moodle.tau.ac.il/course/index.php?categoryid=368"><span itemprop="title">מדעי המחשב</span></a></span></li>
+                        <li class=><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" title="0368216206 - מערכות הפעלה" href="http://moodle.tau.ac.il/course/view.php?id=368216206"><span itemprop="title">0368216206 - מערכות הפעלה</span></a></span></li>
+                        <li class=active><span tabindex="0">אפשרויות גישה ושיוך לתפקיד בקורס</span></li>
+                </ol>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>	</header>
+
+    <div class="container-fluid">
+    <section id="page" >
+        <div id="page-content" class="row">
+            <div id="region-main" class="col-sm-8 col-md-9 forcefloatleft">
+                <div>
+                <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><h2>אפשרויות גישה ושיוך לתפקיד בקורס</h2><div class="box generalbox info"><div class="coursebox clearfix" data-courseid="368216206" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://moodle.tau.ac.il/course/view.php?id=368216206">0368216206 - מערכות הפעלה (03682162-06-2016-2)</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow">0368216206 - מערכות הפעלה</div></div><ul class="teachers"><li>Teacher: <a href="http://moodle.tau.ac.il/user/view.php?id=12160&amp;course=1">יחזקאל ישורון</a></li></ul></div></div></div><div id="notice" class="box generalbox">אורחים אינם יכולים לגשת לקורס זה, יש לבצע זיהוי למערכת לשם צפיה בעמוד זה.</div><div class="continuebutton"><form method="get" action="http://moodle.tau.ac.il/login/index.php"><div><input type="submit" value="המשך" /></div></form></div></div>                </div>
+            </div>
+
+                        <aside id="block-region-side-post" class="col-sm-4 col-md-3 block-region" data-blockregion="side-post" data-droptarget="1"><a class="skip skip-block" id="fsb-1" href="#sb-1">דילוג על נגישות</a><div id="inst28538" class="block_accessibility  block" role="complementary" data-block="accessibility" data-instanceid="28538" aria-labelledby="instance-28538-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-28538-header">נגישות</h2></div></div><div class="content"><div id="accessibility_controls" class="content"><ul id="block_accessibility_textresize" class="button_row"><li class="access-button"><a title="הקטנת ממדיי הגופנים" id="block_accessibility_dec" href="http://moodle.tau.ac.il/blocks/accessibility/changesize.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;op=dec">א-</a></li><li class="access-button"><a id="block_accessibility_reset" title="אתחול ממדיי הגופנים לבררת־מחדל (מוחק הגדרות שמורות)" href="http://moodle.tau.ac.il/blocks/accessibility/changesize.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;op=reset" class="disabled">א</a></li><li class="access-button"><a title="הגדלת ממדיי הגופנים" id="block_accessibility_inc" href="http://moodle.tau.ac.il/blocks/accessibility/changesize.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;op=inc">א+</a></li><li class="access-button"><a title="שמירת הגדרות" id="block_accessibility_save" href="http://moodle.tau.ac.il/blocks/accessibility/database.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;op=save&amp;size=1&amp;scheme=1">&nbsp</a></li></ul><ul id="block_accessibility_changecolour"><li class="access-button"><a id="block_accessibility_colour1" href="http://moodle.tau.ac.il/blocks/accessibility/changecolour.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;scheme=1" class="disabled">R</a></li><li class="access-button"><a id="block_accessibility_colour2" href="http://moodle.tau.ac.il/blocks/accessibility/changecolour.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;scheme=2">א</a></li><li class="access-button"><a id="block_accessibility_colour3" href="http://moodle.tau.ac.il/blocks/accessibility/changecolour.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;scheme=3">א</a></li><li class="access-button"><a id="block_accessibility_colour4" href="http://moodle.tau.ac.il/blocks/accessibility/changecolour.php?redirect=http%3A%2F%2Fmoodle.tau.ac.il%2Fenrol%2Findex.php%3Fid%3D368216206&amp;scheme=4">א</a></li></ul><div id="block_accessibility_message" class="clearfix"></div><input type="button" value="הצגת סרגל נגישות" id="block_accessibility_launchtoolbar" class="atbar_control access-button" /><span class="atbar-always"><input type="checkbox" value="1" id="atbar_auto" name="atbar_auto" class="atbar_control" /><label for="atbar_auto" class="atbar_control">(תמיד?)</label></span></div><span id="loader-icon"></span></div></div><span class="skip-block-to" id="sb-1"></span><a class="skip skip-block" id="fsb-3" href="#sb-3">דילוג על ניווט</a><div id="inst4" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-4-header">ניווט</h2></div></div><div class="content"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" aria-labelledby="label_1_1"><p class="tree_item branch canexpand navigation_node" role="treeitem" aria-expanded="true" aria-owns="random58ea7093e57b02_group" data-collapsible="false"><a tabindex="-1" id="label_1_1" href="http://moodle.tau.ac.il/">ראשי</a></p><ul id="random58ea7093e57b02_group" role="group"><li class="type_course depth_2 contains_branch" aria-labelledby="label_2_2"><p class="tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random58ea7093e57b03_group"><span tabindex="-1" id="label_2_2" title="אוניברסיטת תל אביב - למידה אקדמית ברשת" class="dimmed_text">כלי המערכת</span></p><ul id="random58ea7093e57b03_group" role="group" aria-hidden="true"><li class="type_unknown depth_3 item_with_icon" aria-labelledby="label_3_4"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_4" class="dimmed_text" href="http://moodle.tau.ac.il/blog/index.php"><img class="smallicon navicon" alt="" src="http://moodle.tau.ac.il/theme/image.php/elegance/core/1491641905/i/navigationitem" /><span class="item-content-wrap">בלוגים ציבוריים</span></a></p></li><li class="type_setting depth_3 item_with_icon" aria-labelledby="label_3_5"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_5" class="dimmed_text" href="http://moodle.tau.ac.il/tag/search.php"><img class="smallicon navicon" alt="" src="http://moodle.tau.ac.il/theme/image.php/elegance/core/1491641905/i/navigationitem" /><span class="item-content-wrap">תגים</span></a></p></li><li class="type_custom depth_3 item_with_icon" aria-labelledby="label_3_6"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_3_6" class="dimmed_text" href="http://moodle.tau.ac.il/calendar/view.php?view=month"><img class="smallicon navicon" alt="" src="http://moodle.tau.ac.il/theme/image.php/elegance/core/1491641905/i/navigationitem" /><span class="item-content-wrap">לוח-שנה</span></a></p></li></ul></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_8"><p class="tree_item branch" role="treeitem" aria-expanded="true" aria-owns="random58ea7093e57b07_group"><span tabindex="-1" id="label_2_8">הקורס הנוכחי</span></p><ul id="random58ea7093e57b07_group" role="group"><li class="type_course depth_3 item_with_icon current_branch" aria-labelledby="label_3_9"><p class="tree_item hasicon active_tree_node" role="treeitem"><a tabindex="-1" id="label_3_9" title="0368216206 - מערכות הפעלה" href="http://moodle.tau.ac.il/course/view.php?id=368216206"><img class="smallicon navicon" alt="" src="http://moodle.tau.ac.il/theme/image.php/elegance/core/1491641905/i/navigationitem" /><span class="item-content-wrap">0368216206 - מערכות הפעלה</span></a></p></li></ul></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_10"><p class="tree_item branch" role="treeitem" id="expandable_branch_0_courses" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_0_courses" data-node-key="courses" data-node-type="0"><a tabindex="-1" id="label_2_10" href="http://moodle.tau.ac.il/course/index.php">קורסים</a></p></li></ul></li></ul></div></div><span class="skip-block-to" id="sb-3"></span></aside>        </div>
+    </section>
+    </div>
+</div>
+
+<footer id="page-footer" >
+	<div class="row">
+		<div id="course-footer">
+					</div>
+	</div>
+
+	<div class="row lighter">
+
+		<div class="col-md-4 footercenter">
+<div class="logininfo">אתם משתמשים כרגע בגישת אורחים (<a href="http://moodle.tau.ac.il/login/index.php">התחבר/י</a>)</div>		</div>
+		
+		<div class="col-md-4 pull-left footerleft">
+      <div class="homelink"><a target="_blank" href="http://moodle.tau.ac.il/course/view.php?id=368216206">0368216206 - מערכות הפעלה</a></div>
+		</div>
+
+		<div class="col-md-4 pull-right">
+            <ul class="socials unstyled">
+        <a href=https://itunes.apple.com/en/app/moodle-mobile/id633359593 class="socialicon ios">
+        <i class="fa fa-apple fa-inverse"></i>
+        <span class="sr-only">Download the iPhone/iPad app from the app store</span>
+        </a>  
+        <a href=https://play.google.com/store/apps/details?id=com.moodle.moodlemobile class="socialicon android">
+        <i class="fa fa-android fa-inverse"></i>
+        <span class="sr-only">Download the android app from Google Play</span>
+        </a>  
+        <a href=https://www.facebook.com/tau.main class="socialicon facebook">
+        <i class="fa fa-facebook fa-inverse"></i>
+        <span class="sr-only">Like us on Facebook</span>
+        </a>  
+        <a href=https://twitter.com/telavivuni1 class="socialicon twitter">
+        <i class="fa fa-twitter fa-inverse"></i>
+        <span class="sr-only">Follow us on Twitter</span>
+        </a>   
+        <a href=https://plus.google.com/109503801659851324677/posts class="socialicon googleplus">
+        <i class="fa fa-google-plus fa-inverse"></i>
+        <span class="sr-only">Follow us on Google Plus</span>
+        </a>    
+        <a href=https://www.linkedin.com/edu/school?id=13403&trk=edu-cp-title class="socialicon linkedin">
+        <i class="fa fa-linkedin fa-inverse"></i>
+        <span class="sr-only">Connect with us on LinkedIn</span>
+        </a> 
+        <a href=https://www.youtube.com/user/TAUVOD class="socialicon youtube">
+        <i class="fa fa-youtube fa-inverse"></i>
+        <span class="sr-only">Watch us on Youtube</span>
+        </a> 
+        <a href=https://www.flickr.com/photos/telaviv-university class="socialicon flickr">
+        <i class="fa fa-flickr fa-inverse"></i>
+        <span class="sr-only">View us on Flickr</span>
+        </a> 
+        <a href=https://www.pinterest.com/telavivuni/ class="socialicon pinterest">
+        <i class="fa fa-pinterest fa-inverse"></i>
+        <span class="sr-only">Pin us on Pinterest</span>
+        </a> 
+        <a href=http://instagram.com/telavivuni class="socialicon instagram">
+        <i class="fa fa-instagram fa-inverse"></i>
+        <span class="sr-only">Find us on Instagram</span>
+        </a>
+        <a href=https://www.tau.ac.il class="socialicon website">
+        <i class="fa fa-globe fa-inverse"></i>
+        <span class="sr-only">Visit our Website</span>
+        </a>
+</ul>		</div>
+	</div>
+
+	<div class="row lighter">
+		<div class="col-md-12">
+   			<p><span class="multilang" size="5" style="font-size: 4;" lang="he"> <span style="font-size: small;">האוניברסיטה עושה כל מאמץ לכבד את זכויות היוצרים. אם את/ה בעל/ת זכויות יוצרים בתכנים שנמצאים פה וסבור/ה שהשימוש שנעשה פה אסור, אנא פנה/י אל צוות Virtual TAU. </span></span> <span class="multilang" size="5" style="font-size: small;" lang="en"> The University makes every effort to honor copyrighted works. If you are the owner of the copyrights of any contents herein, and if you are of the opinion that the usage made thereof is prohibited, kindly refer the matter to Virtual TAU Team. </span> <br /><span style="font-size: small;"> </span><span class="multilang" size="5" style="font-size: small;" lang="he"> משתמש/ת יקר/ה, טרם העלאת תכנים לאתר זה עליך לוודא כי התוכן שמועלה על ידך לאתר אינו מוגן בזכויות יוצרים. ככל שהתוכן מוגן בזכויות יוצרים עליך לוודא שהשימוש בו מותר בהסכמת בעל זכויות היוצרים או שהשימוש בתוכן מהווה שימוש הוגן בהתאם </span> <span class="multilang" size="5" style="font-size: small;" lang="en"> Dear user/s, before uploading contents onto this site, you must ensure that the content you uploaded onto the site is not protected by copyright. As long as the content is protected by copyright, you must ensure that its usage is permitted with the consent of the owner of the copyright, or that such usage constitutes "fair usage” in terms of </span> <a href="http://moodle.tau.ac.il/tau/virtual/DOC140203.pdf" target="_blank"><span style="font-size: small;"> </span><span class="multilang" size="3" style="font-size: 4;" lang="he"><span style="font-size: small;"> </span><b><span style="font-size: small;"> לסעיף 19 לחוק זכויות יוצרים, תשס"ח-2007. </span></b><span style="font-size: small;"> </span></span> <span class="multilang" size="5" style="font-size: 4;" lang="en"><span style="font-size: small;"> </span><b><span style="font-size: small;"> section 19 of the Copyright Law of 2007. </span></b><span style="font-size: small;"> </span></span> </a><span style="font-size: small;"> </span><span class="multilang" lang="he"><span size="5" style="font-size: =;" 4=""><span style="font-size: small;"> </span>אין להעלות לאתר זה תכנים המוגנים בזכויות יוצרים ללא אישור בעל הזכויות או תכנים שהשימוש בהם אינו מהווה שימוש הוגן בהתאם לחוק. העלאת תכנים לאתר זה הינה באחריות המשתמש/ת </span> <span class="multilang" size="5" style="font-size: 4;" lang="en"> section 19 of the Copyright Law of 2007. It is not permitted to upload onto this site material protected by copyright without the confirmation of the owner of the copyright, nor to upload contents whose usage does not constitute "fair usage” in terms of the law. The uploading of contents onto this site is at the user sole risk and responsibility. </span></span></p>
+<hr />
+<p><span class="multilang" size="5" style="font-size: small;" lang="he"> ניתן לכתוב דיווח על תקלות ל - <a href="mailto:virtualt@tauex.tau.ac.il">virtualt@tauex.tau.ac.il</a> , נא לצרף תיאור של התקלה, מספר ת.זהות, מספר קורס ו/או קישור. </span> <span class="multilang" size="5" style="font-size: small;" lang="en"> You can write a report abute problems to - <a href="mailto:virtualt@tauex.tau.ac.il">virtualt@tauex.tau.ac.il</a>, please attach a description of the problem, ID number, course number and a link. </span></p>
+<hr />
+<div>
+<p><span class="multilang" size="5" style="font-size: 4;" lang="he">*** חדש *** <br /> תמיכה (בגרסה ניסיונית) באפלקציה <a href="https://itunes.apple.com/en/app/moodle-mobile/id633359593" class="socialicon ios"> <i class="fa fa-apple fa-inverse"></i> <span class="sr-only">Download the iPhone/iPad app from the app store</span> </a> <a href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" class="socialicon android"> <i class="fa fa-android fa-inverse"></i> <span class="sr-only">Download the android app from Google Play</span> </a> <br /> שימו לב : האפליקציה אינה תומכת בכל סוגי הפעילויות והשימוש בה הוא באחריותכם.</span></p>
+<p><span class="multilang" size="5" style="font-size: 4;" lang="en">*** NEW *** <br /> Mobile Support (Beta Version) <a href="https://itunes.apple.com/en/app/moodle-mobile/id633359593" class="socialicon ios"> <i class="fa fa-apple fa-inverse"></i> <span class="sr-only">Download the iPhone/iPad app from the app store</span> </a> <a href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" class="socialicon android"> <i class="fa fa-android fa-inverse"></i> <span class="sr-only">Download the android app from Google Play</span> </a> <br /> Note: The app does not support all kinds of activities and its use is your responsibility.</span></p>
+</div>		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-4 footercenter">
+			<div id="copyrightcenterbottom">
+				<div class="copy">
+				<p>&copy; Copyright 2017 by Tel Aviv University</p>					<p>מפותח ומתוחזק על ידי אגף מחשוב וטכנולוגיות מידע בסיוע ובתמיכת חברת <a target="_blank" href="http://www.openapp.co.il/">OpenApp</a></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4 pull-left footerleft">
+
+			<div class="col-md-6 pull-left">
+				<img src="//moodle.tau.ac.il/pluginfile.php/1/theme_elegance/logosimage1/1491641905/virtual-tau.png" alt="VirtualTAU support center" title="VirtualTAU support center" />
+			</div>
+
+		</div>
+
+		<div class="col-md-4 pull-right">
+			<div class="col-md-6 pull-right">
+				<img src="//moodle.tau.ac.il/pluginfile.php/1/theme_elegance/logosimage2/1491641905/comp-devision.png" alt=" Information Technology and Computing Division" title=" Information Technology and Computing Division" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+    <p class="helplink"></p>
+	</div>
+</footer>
+
+
+
+
+<script>
+
+
+</script>
+
+
+
+ <a href="#top" class="back-to-top"><i class="fa fa-angle-up "></i></a>
+<script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://moodle.tau.ac.il/lib/requirejs.php/-1/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://moodle.tau.ac.il/lib/javascript.php/-1/lib/jquery/jquery-1.12.1.min',
+        jqueryui: 'http://moodle.tau.ac.il/lib/javascript.php/-1/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'http://moodle.tau.ac.il/lib/javascript.php/-1/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/lib/javascript.php/-1/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["block_settings/settingsblock"], function(amd) { amd.init("5", null); });;
+require(["block_navigation/navblock"], function(amd) { amd.init("4"); });;
+require(["core/notification"], function(amd) { amd.init(167543, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="http://moodle.tau.ac.il/theme/javascript.php/elegance/1491641905/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u05e9\u05d9\u05e0\u05d5\u05d9 \u05d0\u05d7\u05e8\u05d5\u05df","name":"\u05e9\u05dd","error":"\u05d8\u05e2\u05d5\u05ea","info":"\u05de\u05d9\u05d3\u05e2","yes":"\u05db\u05df","no":"\u05dc\u05d0","viewallcourses":"\u05e6\u05e4\u05d9\u05d4 \u05d1\u05db\u05dc \u05d4\u05e7\u05d5\u05e8\u05e1\u05d9\u05dd","morehelp":"\u05e2\u05d6\u05e8\u05d4 \u05e0\u05d5\u05e1\u05e4\u05ea","loadinghelp":"\u05d8\u05d5\u05e2\u05df...","cancel":"\u05d1\u05d9\u05d8\u05d5\u05dc","confirm":"\u05d0\u05d9\u05e9\u05d5\u05e8","areyousure":"\u05d4\u05d0\u05dd \u05d0\u05ea\/\u05d4 \u05d1\u05d8\u05d5\u05d7\/\u05d4?","closebuttontitle":"\u05e1\u05d2\u05d9\u05e8\u05d4","unknownerror":"\u05e9\u05d2\u05d9\u05d0\u05d4 \u05dc\u05d0 \u05d9\u05d3\u05d5\u05e2\u05d4"},"repository":{"type":"\u05e1\u05d5\u05d2","size":"\u05d2\u05d5\u05d3\u05dc","invalidjson":"\u05ea\u05e7\u05dc\u05ea \u05ea\u05e7\u05e9\u05d5\u05e8\u05ea. \u05d0\u05e0\u05d0 \u05d4\u05ea\u05d7\u05d1\u05e8\u05d5 \u05e9\u05d5\u05d1 \u05dc\u05de\u05e2\u05e8\u05db\u05ea.","nofilesattached":"\u05dc\u05d0 \u05e0\u05d1\u05d7\u05e8\u05d5 \u05e7\u05d1\u05e6\u05d9\u05dd","filepicker":"\u05d1\u05d7\u05d9\u05e8\u05ea \u05e7\u05d5\u05d1\u05e5","logout":"\u05d4\u05ea\u05e0\u05ea\u05e7\u05d5\u05ea","nofilesavailable":"\u05de\u05d0\u05d2\u05e8 \u05d4\u05e7\u05d1\u05e6\u05d9\u05dd \u05e8\u05d9\u05e7","norepositoriesavailable":"\u05de\u05e6\u05d8\u05e2\u05e8\u05d9\u05dd, \u05d0\u05e3 \u05d0\u05d7\u05d3 \u05de\u05d4\u05de\u05d0\u05d2\u05e8\u05d9\u05dd \u05d4\u05e0\u05d5\u05db\u05d7\u05d9\u05d9\u05dd \u05e9\u05dc\u05da \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d7\u05d6\u05d9\u05e8 \u05e7\u05d1\u05e6\u05d9\u05dd \u05d1\u05ea\u05d1\u05e0\u05d9\u05ea \u05d4\u05de\u05d1\u05d5\u05e7\u05e9\u05ea","fileexistsdialogheader":"\u05e7\u05d1\u05e6\u05d9\u05dd \u05e7\u05d9\u05d9\u05de\u05d9\u05dd","fileexistsdialog_editor":"\u05e7\u05d5\u05d1\u05e5 \u05d1\u05e2\u05dc \u05e9\u05dd \u05d6\u05d4\u05d4 \u05e6\u05d5\u05e8\u05e3 \u05db\u05d1\u05e8 \u05dc\u05ea\u05d5\u05db\u05df \u05e9\u05d4\u05d9\u05e0\u05da \u05e2\u05d5\u05de\u05d3\/\u05ea \u05dc\u05e2\u05e8\u05d5\u05da.","fileexistsdialog_filemanager":"\u05e7\u05d5\u05d1\u05e5 \u05d1\u05e2\u05dc \u05e9\u05dd \u05d6\u05d4\u05d4 \u05e7\u05d9\u05d9\u05dd \u05d1\u05de\u05e2\u05e8\u05db\u05ea","renameto":"\u05e9\u05d9\u05e0\u05d5\u05d9 \u05e9\u05dd \u05dc: \"{$a}\"","referencesexist":"{$a} \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05e7\u05d5\u05e9\u05e8\u05d9\u05dd \u05dc\u05e7\u05d5\u05d1\u05e5 \u05d6\u05d4, \u05d4\u05de\u05e9\u05de\u05e9 \u05db\u05de\u05e7\u05d5\u05e8 \u05e9\u05dc\u05d4\u05dd","select":"\u05d1\u05d7\u05d9\u05e8\u05d4"},"admin":{"confirmdeletecomments":"\u05d4\u05d9\u05e0\u05da \u05e2\u05d5\u05de\u05d3 \u05dc\u05de\u05d7\u05d5\u05e7 \u05d4\u05e2\u05e8\u05d5\u05ea, \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7?","confirmation":"\u05d0\u05d9\u05e9\u05d5\u05e8"},"block_accessibility":{"saved":"\u05d4\u05d4\u05d2\u05d3\u05e8\u05d5\u05ea \u05e0\u05e9\u05de\u05e8\u05d5","jsnosave":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05e2\u05ea \u05e2\u05d3\u05db\u05d5\u05df \u05d4\u05d4\u05d2\u05d3\u05e8\u05d5\u05ea","reset":"\u05e0\u05de\u05d7\u05e7\u05d5 \u05d4\u05d4\u05d2\u05d3\u05e8\u05d5\u05ea","jsnosizereset":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05e2\u05ea \u05d0\u05ea\u05d7\u05d5\u05dc \u05de\u05de\u05d3\u05d9\u05d9 \u05d4\u05d2\u05d5\u05e4\u05e0\u05d9\u05dd","jsnocolourreset":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05e2\u05ea \u05d4\u05e1\u05e8\u05ea \u05d4\u05e6\u05d1\u05e2","jsnosize":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05e2\u05ea \u05e2\u05d3\u05db\u05d5\u05df \u05de\u05de\u05d3\u05d9\u05d9 \u05d4\u05d2\u05d5\u05e4\u05e0\u05d9\u05dd","jsnocolour":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05e2\u05ea \u05e2\u05d3\u05db\u05d5\u05df \u05d4\u05e6\u05d1\u05e2","jsnotloggedin":"\u05d4\u05ea\u05e8\u05d7\u05e9\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4. \u05d0\u05e0\u05d0 \u05d1\u05d3\u05e7\u05d5 \u05d0\u05dd \u05d0\u05ea\u05dd \u05e2\u05d3\u05d9\u05d9\u05df \u05de\u05d7\u05d5\u05d1\u05e8\u05d9\u05dd \u05dc\u05de\u05e2\u05e8\u05db\u05ea.","launchtoolbar":"\u05d4\u05e6\u05d2\u05ea \u05e1\u05e8\u05d2\u05dc \u05e0\u05d2\u05d9\u05e9\u05d5\u05ea"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"he"});
+});
+ M.util.js_pending('random58ea7093e57b01'); Y.use('block_accessibility', function(Y) { M.block_accessibility.init(Y, false, "28538");  M.util.js_complete('random58ea7093e57b01'); });
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select58ea7093e57b012","nothing":false});
+});
+ M.util.js_pending('random58ea7093e57b013'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random58ea7093e57b013'); });
+})();
+//]]>
+</script>
+</body>
+</html>
